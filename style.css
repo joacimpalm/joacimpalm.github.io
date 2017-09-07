@@ -1,0 +1,146 @@
+body{
+  font-family: 'Oswald', sans-serif;
+  background-color: black;
+}
+
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+#maindiv{
+  width: 100%;
+  height: auto;
+  /*background-image: url(img/bg.jpg);
+  background-size: cover;*/
+  background-color: #333232;
+  background-image: url(bg.jpg);
+  background-size: cover;
+  outline: 1px solid white;
+}
+#navdiv{
+  /*background-color:rgba(3, 196, 244, 0.3);*/
+}
+
+#navdiv ul{
+  margin-left: 628px;
+  margin-top: -200px;
+  width: 504px;
+  height: 80px;
+  background: #2f2f2f;
+  line-height: 40px;
+  color: white;
+  background-color:rgba(47, 47, 47, 0.7);
+}
+
+#navdiv ul a{
+  text-decoration: none;
+  color: white;
+  padding: 20px
+}
+
+#navdiv ul li{
+  list-style-type: none;
+  float: right;
+}
+
+#navdiv ul li:hover{
+  background-color: #737171;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+  background-color:rgba(115, 113, 113, 0.4);
+}
+
+li a.active{
+  background-color: #232323;
+}
+
+#navdiv ul li a{
+  display: inline-block;
+}
+
+.logo{
+  margin-left: 100px;
+  margin-bottom: 40px;
+  margin-top: 100px;
+
+  /*width: 150px;
+  height: 50px;
+  background-color: black;*/
+}
+
+.box_container{
+
+  margin-left: 125px;
+  width: 100%;
+
+}
+
+.box_left{
+  width: 300px;
+  height: auto;
+  background-color: #2f2f2f;
+  float: left;
+  margin: 20px;
+  background-color:rgba(47, 47, 47, 0.7);
+  border: 1px solid grey;
+}
+
+.box_middle{
+  width: 300px;
+  height: auto;
+  background-color: #2f2f2f;
+  float: left;
+  margin: 20px;
+  background-color:rgba(47, 47, 47, 0.7);
+  border: 1px solid grey;
+}
+
+.box_right{
+  width: 300px;
+  height: auto;
+  background-color: #2f2f2f;
+  float: left;
+  margin: 20px;
+  background-color:rgba(47, 47, 47, 0.7);
+  border: 1px solid grey;
+}
+
+h1{
+  font-size: 22px;
+  text-align: center;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-weight: normal;
+}
+
+p{
+  font-size: 16px;
+  text-align: left;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-weight: lighter;
+  margin: 5px;
+}
+
+p::first-letter{
+  font-size: 200%;
+}
+
+.first_article_image{
+  margin-right: 5px;
+}
+
+.second_article_image{
+  margin-right: 5px;
+  margin-top: 50px;
+}
+
+.css3_image{
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 10px;
+}
